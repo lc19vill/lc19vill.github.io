@@ -1,0 +1,64 @@
+/*The list related css was guided by the one on w3schools */
+
+body{
+    background-color: lightgrey;
+}
+
+.logo{
+    align-content: center;
+    height: 200px;
+    background-color: #141414;
+}
+
+.logoImage{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: cadetblue;
+}
+
+.container {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.score {
+    text-shadow: 2px 2px black;
+}
+
+.item {
+    padding-bottom: 20px;
+}
+
+input {
+    margin: 5px 5px 5px 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
