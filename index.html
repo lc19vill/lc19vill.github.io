@@ -1,36 +1,242 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home Screen</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VideoStreamer</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css%22%3E" />
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <!-- Top portion -->
-        <div class="logo">
-        <img src="images/logo.PNG" class="logoImage">
-        </div>
-        <!-- website navbar -->
-		<nav class="navbar">
-		    <ul class="navbar-nav">
-		        <li><a class="nav-item" href="index.html">Home</a></li>
-                <li><a class="nav-item" href="projects.html">Projects</a></li>
-                <li><a class="nav-item" href="about.html">About Me</a></li>
-                <li><a class="nav-item" href="password.html">Test</a></li>
-            </ul>
-		</nav>
-        <!-- End of nav bar -->
-	</header>
+<div class="page-container">
+<header>
+	<ul class="nav-bar">
+		<li id="logo-item"><img src="http://placeimg.com/120/45/tech" href="index.html" class="helper--nav-one"/></li>
+		<li class="helper--nav-two"><a href="" class="active">Home</a></li>
+		<li class="helper--nav-three"><a href="">Trending</a></li>
+		<li class="helper--nav-four"><a href="">Categories</a></li>
+		<li class="helper--nav-five"><a href="">Subscriptions</a></li>
+		<li class="helper--nav-six"><a href="">History</a></li>
+		<li class="helper--nav-seven"><a href="">Login/Register</a></li>
+		<img src="images/menu.png" id="menu">
+		<img src="images/search_icon.jpg" id="search-icon">
+		<input type="text" placeholder="Search.." name="search" class="helper--nav-nine">
+	</ul>
+</header>
+<section>
+	<div class="video-spotlight  col11">
+		<img src="http://placeimg.com/150/100/arch" class="helper--spotlight-side  helper--left-outer-video" />
+		<img src="http://placeimg.com/230/200/people" class="helper--spotlight-side  helper--left-inner-video" />
+		<video controls class="helper--spotlight-side  helper--main-video">
+			<source src="" type="video/mp4">
+			<source src="" type="video/ogg">
+		</video>
+		<img src="http://placeimg.com/230/200/tech" class="helper--spotlight-side  helper--right-inner-video" />
+		<img src="http://placeimg.com/150/100/animals" class="helper--spotlight-side  helper--right-outer-video" />
+	</div>
+	<div>
+		<div class="row">
+			<div class="col col2">
+				<div class="left-side-content">
+					<p id="fact-of-day">Fact of the day:</p>
+					<p>According to some former astronauts, space smells like "hot metal" or "seared steak". </p>
+					<a href="">Source<a><br/>
+					<a href="" >About Us</a>
+					<a href="" >Contact Us</a>
+					<a href="" >Terms</a>
+					<a href="" >Policy</a> <br/>
+					<p>VideoStreamer</p>
+					<p>Somewhere in NY</p>
+					<p>23232</p>
+				</div>
+			</div>
+			<div class="col col11  helper--all-videos">
+				<p class="category-title" href="">Documentaries</p>
+				<div class="all-videos-container">
+					<div class="thumbnail-container    helper--video-one">
+						<a href="" class="video-title">Vivamus ut sem</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/animals/grayscale" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-two">
+						<a href="" class="video-title">Cras non diam</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/arch" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-three">
+						<a href="" class="video-title">Fusce nec mi</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/nature/sepia" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-four">
+						<a href="" class="video-title">Morbi interdum</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/any" class="thumbnail"> </a>
+					</div>
+				</div>
+				<h5 id="view-more-break"><span><a href="">View More</a></span></h5>
+				
+				<p class="category-title" href="">Music Videos</p>
+				<div class="all-videos-container">
+					<div class="thumbnail-container    helper--video-one">
+						<a href="" class="video-title">Nullam dapibus</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/tech/grayscale" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-two">
+						<a href="" class="video-title">Sed porta vulputate</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/arch/grayscale" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-three">
+						<a href="" class="video-title">Pellentesque ultrices</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/nature" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-four">
+						<a href="" class="video-title">Nullam faucibus</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/tech/sepia" class="thumbnail"> </a>
+					</div>
+				</div>
+				<h5 id="view-more-break"><span><a href="">View More</a></span></h5>
+				
+				<p class="category-title" href="">Gaming</p>
+				<div class="all-videos-container">
+					<div class="thumbnail-container    helper--video-one">
+						<a href="" class="video-title">Donec at ipsum</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/people/sepia" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-two">
+						<a href="" class="video-title">Nam sagittis</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/any/grayscale" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-three">
+						<a href="" class="video-title">Nam dapibus non</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/animals" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-four">
+						<a href="" class="video-title">Aliquam a neque</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/arch" class="thumbnail"> </a>
+					</div>
+				</div>
+				<h5 id="view-more-break"><span><a href="">View More</a></span></h5>
+				
+				<p class="category-title" href="">Discover</p>
+				<div class="all-videos-container">
+					<div class="thumbnail-container    helper--video-one">
+						<a href="" class="video-title">Cras consequat</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/nature" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-two">
+						<a href="" class="video-title">Aenean luctus</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/animals/sepia" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-three">
+						<a href="" class="video-title">Etiam accumsan volutpat</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/tech/grayscale" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-four">
+						<a href="" class="video-title">Nulla nec</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/any" class="thumbnail"> </a>
+					</div>
+				</div>
+				<div class="all-videos-container">
+					<div class="thumbnail-container    helper--video-one">
+						<a href="" class="video-title">Morbi quis orci</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/nature/sepia" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-two">
+						<a href="" class="video-title">Ut venenatis urna</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/animals" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-three">
+						<a href="" class="video-title">Sed eleifend</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/any/sepia" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-four">
+						<a href="" class="video-title"> Donec a massa</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/nature" class="thumbnail"> </a>
+					</div>
+				</div>
+				<div class="all-videos-container">
+					<div class="thumbnail-container    helper--video-one">
+						<a href="" class="video-title">Nunc tincidunt </a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/tech/sepia" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-two">
+						<a href="" class="video-title">Integer purus</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/people/grayscale" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-three">
+						<a href="" class="video-title">Quisque ligula</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/arch" class="thumbnail"> </a>
+					</div>
+					<div class="thumbnail-container  helper--video-four">
+						<a href="" class="video-title">Aliquam pellentesque</a>
+						<a href=""><img src="http://placeimg.com/40/40/people" class="creator"> </a>
+						<br/>
+						<a href=""><img src="http://placeimg.com/320/180/any" class="thumbnail"> </a>
+					</div>
+				</div>
+				<h5 id="view-more-break"><span><a href="">View More</a></span></h5>
 
-<div class="container">
-    <h1>Welcome To My Portfolio</h1>
-    <p>Filler text here. </p>
+			</div>
+			<div class="col col12">
+				<div class="bottom-content">
+					<p class="one"><a href="" >About</a>
+					<a href="" >Contact</a></p>
+					<p class="two"><a href="" >Terms</a>
+					<a href="" >Policy</a> </p>
+					<p class="three"><img src="http://placeimg.com/120/45/tech" href="index.html" />
+					<p>VideoStreamer <br/> Somewhere in NY</p></p>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+</section>
+<footer>
+	<p id="helper--footer-space"></p>
+</footer>
 </div>
 </body>
-    
-<footer>
-    Thank you for the consideration, and I look forward to hearing back.<br>
-    <a href="index.html">Home</a> &middot; <a href="projects.html">Projects</a>&middot; <a href="about.html">About Me</a>
-</footer>
-    
 </html>
